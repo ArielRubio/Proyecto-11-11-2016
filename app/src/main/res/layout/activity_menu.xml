@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo2"
+    tools:context="com.example.duoc.proyecto.MenuAnimal">
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:text="Perros"
+        android:id="@+id/btnPerros"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:layout_alignParentEnd="false"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/perro"
+        android:drawablePadding="8dp"
+        android:layout_above="@+id/btnRegistro"
+        android:layout_marginBottom="30dp"
+        android:background="#00ff96" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:text="Gatos"
+        android:id="@+id/btnGatos"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/btnPerros"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/gato"
+        android:drawablePadding="8dp"
+        android:layout_marginBottom="30dp"
+        android:background="#ff7e00" />
+
+</RelativeLayout>
